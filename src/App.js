@@ -8,27 +8,27 @@ function App() {
       <ul className="link-list">
         <li className="link-item">
           <a href="#" className="link">
-            Link 1
+            <i className="icon fa-solid fa-globe"></i> Website
           </a>
         </li>
         <li className="link-item">
           <a href="#" className="link">
-            Link 2
+            <i className="icon fa-brands fa-linkedin"></i> LinkedIn
           </a>
         </li>
         <li className="link-item">
           <a href="#" className="link">
-            Link 3
+            <i className="icon fa-brands fa-instagram-square"></i> Instagram
           </a>
         </li>
         <li className="link-item">
           <a href="#" className="link">
-            Link 4
+            <i className="icon fa-brands fa-twitter-square"></i> Twitter
           </a>
         </li>
         <li className="link-item">
           <a href="#" className="link">
-            Link 5
+            <i className="icon fa-brands fa-youtube-square"></i> Youtube
           </a>
         </li>
       </ul>
