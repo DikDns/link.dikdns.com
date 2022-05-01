@@ -2,4 +2,58 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  background: linear-gradient(to bottom, #b721ff, #21d4fd);
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 250px;
+}
+
+.link-item {
+  margin: 15px 0;
+  padding: 2px 20px;
+  border-radius: 16px;
+  border: solid 3px #fffeff;
+  box-shadow: 1px 1px 10px 0px #fffeff;
+}
+
+.link {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #fffeff;
+  background-color: transparent;
+  /* Gradient Color */
+  /* background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fffeff),
+    to(#d7fffe)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.icon {
+  margin-right: 5px;
 }
