@@ -28,18 +28,21 @@ main {
 }
 
 .link-item {
-  margin: 15px 0;
-  padding: 2px 20px;
-  border-radius: 16px;
-  border: solid 3px #fffeff;
-  box-shadow: 1px 1px 10px 0px #fffeff;
+  margin: 20px 0;
+  display: flex;
 }
 
 .link {
+  display: block;
+  padding: 2px 20px;
+  width: 100%;
+  border-radius: 16px;
   font-family: inherit;
   font-weight: 600;
   font-size: 1.25em;
   text-decoration: none;
+  border: solid 3px #fffeff;
+  box-shadow: 1px 1px 10px 0px #fffeff;
   color: #fffeff;
   background-color: transparent;
   /* Gradient Color */
@@ -52,8 +55,17 @@ main {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+  transition: 0.25s all;
 }
 
 .icon {
   margin-right: 5px;
+  font-size: inherit;
+}
+
+.link:hover {
+  border: solid 3px #ade8f4;
+  box-shadow: 1px 1px 10px 0px #ade8f4;
+  color: #ade8f4;
+  transform: translateY(-5px);
 }

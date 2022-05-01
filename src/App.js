@@ -21,12 +21,12 @@ function App() {
         </li>
         <li className="link-item">
           <a href="https://www.instagram.com/dikdns/" className="link">
-            <i className="icon fa-brands fa-instagram-square"></i> Instagram
+            <i className="icon fa-brands fa-instagram"></i> Instagram
           </a>
         </li>
         <li className="link-item">
           <a href="https://twitter.com/dikdns_" className="link">
-            <i className="icon fa-brands fa-twitter-square"></i> Twitter
+            <i className="icon fa-brands fa-twitter"></i> Twitter
           </a>
         </li>
         <li className="link-item">
@@ -34,7 +34,7 @@ function App() {
             href="https://www.youtube.com/channel/UCekKhkXSv6RdD9rXkW2ZvDA?sub_confirmation=1"
             className="link"
           >
-            <i className="icon fa-brands fa-youtube-square"></i> Youtube
+            <i className="icon fa-brands fa-youtube"></i> Youtube
           </a>
         </li>
       </ul>
