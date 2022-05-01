@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import profilePic from "./img/profile-pic.png";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <img className="profile-pic" src={profilePic} alt="DikDns Logo" />
+      <ul className="link-list">
+        <li className="link-item">
+          <a href="#" className="link">
+            Link 1
+          </a>
+        </li>
+        <li className="link-item">
+          <a href="#" className="link">
+            Link 2
+          </a>
+        </li>
+        <li className="link-item">
+          <a href="#" className="link">
+            Link 3
+          </a>
+        </li>
+        <li className="link-item">
+          <a href="#" className="link">
+            Link 4
+          </a>
+        </li>
+        <li className="link-item">
+          <a href="#" className="link">
+            Link 5
+          </a>
+        </li>
+      </ul>
+    </main>
   );
 }
 
