@@ -29,11 +29,13 @@ main {
   padding: 0;
   list-style: none;
   width: 250px;
+  box-sizing: border-box;
 }
 
 .link-item {
   margin: 20px 0;
   display: flex;
+  box-sizing: border-box;
 }
 
 .link {
@@ -79,4 +81,34 @@ main {
   box-shadow: 1px 1px 10px 0px #ade8f4;
   color: #ade8f4;
   transform: translateY(-5px);
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 614px) {
+  .link-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .link-item {
+    width: 250px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 768px) {
+  .link-list {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .link-item {
+    width: 250px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+  }
 }
