@@ -20,6 +20,10 @@ main {
   box-sizing: border-box;
 }
 
+.profile-pic {
+  margin-bottom: 10px;
+}
+
 .link-list {
   margin: 0;
   padding: 0;
@@ -33,7 +37,7 @@ main {
 }
 
 .link {
-  display: block;
+  display: flex;
   padding: 2px 20px;
   width: 100%;
   border-radius: 16px;
@@ -58,8 +62,15 @@ main {
   transition: 0.25s all;
 }
 
+.icon-wrapper {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
 .icon {
-  margin-right: 5px;
   font-size: inherit;
 }
 
