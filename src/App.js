@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <img className="profile-pic" src={profilePic} alt="DikDns Logo" />
+      <img className="profile-pic" src={profilePic} alt="DikDns Logo" width="100" />
       <ul className="link-list">
         <li className="link-item">
           <a
