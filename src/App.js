@@ -4,7 +4,12 @@ import "./App.css";
 function App() {
   return (
     <main>
-      <img className="profile-pic" src={profilePic} alt="DikDns Logo" width="100" />
+      <img
+        className="profile-pic"
+        src={profilePic}
+        alt="DikDns Logo"
+        width="100"
+      />
       <ul className="link-list">
         <li className="link-item">
           <a
@@ -99,19 +104,6 @@ function App() {
         </li>
         <li className="link-item">
           <a
-            href="https://open.spotify.com/user/kegjluf3vmci3qo4y5g7de8jk"
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="icon-wrapper">
-              <i class="icon fa-brands fa-spotify"></i>
-            </div>
-            Spotify
-          </a>
-        </li>
-        <li className="link-item">
-          <a
             href="https://discordapp.com/users/168393351186481153"
             className="link"
             target="_blank"
@@ -121,19 +113,6 @@ function App() {
               <i class="icon fa-brands fa-discord"></i>
             </div>
             Discord
-          </a>
-        </li>
-        <li className="link-item">
-          <a
-            href="mailto:dikdnssocial@gmail.com"
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="icon-wrapper">
-              <i class="icon fa-solid fa-envelope"></i>
-            </div>
-            Email
           </a>
         </li>
       </ul>
